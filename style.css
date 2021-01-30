@@ -3,10 +3,10 @@ body {
     font-size: 15px;
     font-weight: 400;
     background-size: 1440px;
-    background-color: hsl(1, 10%, 95%);
+    background-color: hsla(216, 22%, 67%, 0.329);
     margin: 0;
     padding: 0%;
-    line-height: 1.5;    
+    line-height: 1.5;
 }
 
 
@@ -26,7 +26,7 @@ h3 {
 }
 
 #pricetab {
-    padding: 150px;  
+    padding: 150px 150px 400px 150px;  
     width: 50%;
     display: block;    
     margin: auto;   
@@ -35,7 +35,7 @@ h3 {
 .join,
 .subscribe, 
 .why-us {
-    margin: -20px 0px;
+    margin: 0px;
 }
 
 .join {
@@ -55,13 +55,19 @@ h3 {
 
 .join p {
     color: hsl(218, 22%, 75%);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .subscribe {
     background-color: hsl(179, 62%, 43%);
-    color:hsl(204, 43%, 93%);        
-    padding: 30px; 
+    color:hsl(204, 43%, 93%);
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    border-bottom-left-radius: 10px;        
+    padding: 30px;
+    float: left;
+    box-sizing: border-box;
+    height: 270px;
+    width: 50%;
 }
 
 #dollar {
@@ -69,7 +75,7 @@ h3 {
     font-weight: 700;
 }
 #permonth {
-    color: hsl(179, 50%, 60%);
+    color: hsl(179, 50%, 70%);
     position: relative;
     bottom: 5px;
     padding-left: 8px;      
@@ -78,7 +84,7 @@ h3 {
 button {
     color: white;
     background-color: hsl(71, 73%, 54%);
-    padding: 15px 90px;
+    padding: 15px 85px;
     font-weight: 700;
     border: none;
     border-radius: 5px;
@@ -93,14 +99,18 @@ button:hover {
 .why-us {
     background-color: hsl(179, 50%, 60%);
     color:hsl(204, 43%, 91%);
-    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
-    padding: 30px;    
+    padding: 30px 30px 45px 30px;    
+    float: right;
+    box-sizing: border-box;
+    height: 270px;
+    width: 50%;    
 }
 
 footer {
-    text-align: center;    
+    text-align: center;
+    color:rgb(58, 58, 58);    
 }
 
 footer a {
